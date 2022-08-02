@@ -11,7 +11,7 @@ const Login = () => {
         direction="column"
         alignItems="center"
         justifyContent="center"
-        style={{ minHeight: "100vh" }}
+        style={{ minHeight: "94vh" }}
       >
         <Typography sx={{ color: "#0fb66e" }} variant="h2">
           Login
@@ -34,7 +34,6 @@ const Login = () => {
               },
             }}
           />
-
           <TextField
             color="success"
             label="Password"
